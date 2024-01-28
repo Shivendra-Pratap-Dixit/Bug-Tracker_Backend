@@ -19,7 +19,7 @@ const clientid = "351492689096-ljc1g40jumcio0di6n5a4pl0pd4mt4ot.apps.googleuserc
 const clientsecret = "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"
 
 app.use(cors({
-    origin:"http://localhost:3000",
+    origin:"https://bug-client.vercel.app",
     methods:"GET,POST,PUT,DELETE",
     credentials:true
 }));
